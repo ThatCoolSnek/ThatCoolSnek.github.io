@@ -121,9 +121,9 @@
   },
   "shortcircuit": {
     "EventType": "Default",
-    "HasGlobalCooldown": false,
+    "HasGlobalCooldown": true,
     "HasLocalCooldown": false,
-    "GlobalCooldown": 0,
+    "GlobalCooldown": 15,
     "LocalCooldown": 0,
     "Mod": "Twitch Toolkit"
   },
@@ -490,9 +490,9 @@
   "item": {
     "EventType": "Default",
     "HasGlobalCooldown": false,
-    "HasLocalCooldown": false,
+    "HasLocalCooldown": true,
     "GlobalCooldown": 0,
-    "LocalCooldown": 0,
+    "LocalCooldown": 5,
     "Mod": "Twitch Toolkit"
   },
   "prisoner": {
